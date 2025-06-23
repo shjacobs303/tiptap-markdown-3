@@ -80,7 +80,7 @@ describe('clipboard', () => {
             editor.commands.selectAll();
             editor.view.dom.dispatchEvent(event);
 
-            expect(event.clipboardData.getData('text/plain')).toBe('My title');
+            expect(event.clipboardData.getData('text/plain')).toBe('My title\n\n');
         });
     });
 })

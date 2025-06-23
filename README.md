@@ -1,5 +1,5 @@
 > [!WARNING]
-As Tiptap have now a solution for markdown (paid [Conversion extension](https://next.tiptap.dev/docs/conversion/import-export/markdown/editor-extensions) and more markdown handling [announced for v3](https://next.tiptap.dev/docs/resources/whats-new#whats-next-in-tiptap-3x)). I don't plan to release [v1](https://github.com/aguingand/tiptap-markdown/pull/67) nor addressing current issues / PR. Feel free to fork the project if you need.
+As Tiptap have now a solution for markdown (paid [Conversion extension](https://next.tiptap.dev/docs/conversion/import-export/markdown/editor-extensions) and more markdown handling [announced for v3](https://next.tiptap.dev/docs/resources/whats-new#whats-next-in-tiptap-3x)). The original creator does not plan to release a [v1](https://github.com/aguingand/tiptap-markdown/pull/67) nor addressing current issues / PR in their repository. This is a fork of the project to update the dependency version for Tiptap v3 until the official supported option is release. 
 
 # Tiptap markdown
 
