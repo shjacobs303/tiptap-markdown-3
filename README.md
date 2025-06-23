@@ -8,7 +8,7 @@ The markdown extension for [Tiptap editor](https://www.tiptap.dev/).
 ## Installation
 
 ```bash
-npm install tiptap-markdown
+npm install tiptap-markdown-3
 ```
 
 ### Requirements
@@ -20,7 +20,7 @@ Basic example:
 ```js
 import { Editor } from '@tiptap/core';
 import StarterKit from '@tiptap/starter-kit';
-import { Markdown } from 'tiptap-markdown';
+import { Markdown } from 'tiptap-markdown-3';
 
 const editor = new Editor({
     content: "# Title",
@@ -56,7 +56,7 @@ editor.storage.markdown.getMarkdown(); // get current content as markdown
 ```
 
 ### Custom extensions
-See [examples](https://github.com/aguingand/tiptap-markdown/tree/main/example/src/extensions).  
+See [examples](https://github.com/shjacobs303/tiptap-markdown-3/tree/main/example/src/extensions).  
 Check out prosemirror-markdown [default serializer](https://github.com/ProseMirror/prosemirror-markdown/blob/master/src/to_markdown.ts#L66) for examples of serialize config. Check out markdown-it [plugins](https://github.com/markdown-it/markdown-it#syntax-extensions) for parsing.
 
 ## Contributing
